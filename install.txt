@@ -1,0 +1,48 @@
+##################THIS INSTALL FILE IS ABOUT NECESSARY PACKAGES THAT ARE REQUIRED TO RUN THIS TOOL#################
+
+
+ON SHAPER NODES:
+	INSTALL PYTHON-PIP
+	INSTALL PYTHON-VIRTUALENV
+	INSTALL FLASK
+	INSTALL MYSQLDB 
+	INSTALL SUPERVISOR
+
+#########################################################
+ON CONTROLLER NODE:
+	INSTALL PYTHON-PIP
+	INSTALL PYTHON-VIRTUALENV
+	INSTALL FLASK
+	INSTALL MYSQLDB
+	INSTALL MYSQL SERVER
+	INSTALL SUPERVISOR
+##############################################################
+TO INSTALL PYTHON -PIP
+	$sudo apt-get install python-pip
+	(preferebaly latest version)
+
+TO INSTALL PYTHON -VIRTUALENV
+	$sudo apt-get install python-virtualenv
+TO INSTALL FLASK
+	$virtualenv flask
+	$flask/bin/pip install flask-httpauth
+TO INSTALL MYSQLDB
+	$ sudo apt-get install mysqldb
+TO INSTALL SUPERVISOR
+	$sudo apt-get install supervisorINSTALLING MYSQL SERVER
+	sudo apt-get update
+	sudo apt-get install mysql-server
+	sudo mysql_secure_installation
+	sudo mysql_install_db
+TO CONFIGURE MYSQLDB
+	sudo mysql_secure_installation
+INITIALISE THE DATA DIRECTORY BY RUNNING
+	mysql_install_db. sudo mysql_install_db
+
+##############################################################3#######
+
+###################REFERENCES FOR INSTALLATIONS#########################
+1.https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-
+ u buntu-and-debian-vps 2.https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-
+python-and-flask
+3.https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04
