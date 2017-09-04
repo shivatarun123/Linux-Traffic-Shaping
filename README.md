@@ -185,15 +185,15 @@ UserWill be able to apply settings to the traffic between source and destination
                                                                                                                                
                                                                                                                             
 # CONTROLLER USER INTERFACE 
--Type the following URL on your browser:
+	-Type the following URL on your browser:
      http://(ip):5000/controller
      (Here,ip refers to the controller node ip from which you want to have the control or access information about shapers)
--This shall open a user interface as shown in the attached controller_UI.png file
--Find the available shaper nodes by clicking on the button "shaper nodes"
--User can check the interfaces of a particular shaper node by giving its ip address and then click on the button "find interfaces"
--User can check the settings applied by the latest or any shaper node by giving its ip address and interface,then click on the button "find settings"(latest shaper can be found from history )
--User can check the history,that is which all acted as shapers previously,at what time and what are the settings applied on them  and ip addresses of the users who has done shaping, by giving a number(here "number" is the number of shapers and its changes user wants to see).And then click on the button "history",a list of shapers and there settings will be displayed in a list in json format in web browser,the first shaper in the list is the latest one.
--User can delete the settings done by the  shaper by giving its ip address and interface ,then click on the button "delete settings"    
+	-This shall open a user interface as shown in the attached controller_UI.png file
+	-Find the available shaper nodes by clicking on the button "shaper nodes"
+	-User can check the interfaces of a particular shaper node by giving its ip address and then click on the button "find interfaces"
+	-User can check the settings applied by the latest or any shaper node by giving its ip address and interface,then click on the button "find settings"(latest shaper can be found from history )
+	-User can check the history,that is which all acted as shapers previously,at what time and what are the settings applied on them  and ip addresses of the users who has done shaping, by giving a number(here "number" is the number of shapers and its changes user wants to see).And then click on the button "history",a list of shapers and there settings will be displayed in a list in json format in web browser,the first shaper in the list is the latest one.
+	-User can delete the settings done by the  shaper by giving its ip address and interface ,then click on the button "delete settings"    
 
 
 
