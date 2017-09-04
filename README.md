@@ -15,7 +15,7 @@ Updates the key of controller node
 Updates the key of shaper node                                                                                        
 Tracks the settings done and by which shaper ,from controller node     
 
-AFTER INSTALLING PACKAGES MENTIONED IN INSTALL.txt
+# AFTER INSTALLING PACKAGES MENTIONED IN INSTALL.txt
 
 1. Deploy the following files On shaper nodes:                                                                         
 		- make directory “project” like below                                                                          
@@ -33,7 +33,22 @@ Enable read and write privileges on text files using
 2. Restart the supervisor using                                                                                        
 		--sudo service supervisor restart                                                                              
                                                                                                                              
-THIS ENDS DEPLOYING ON NODES
+# THIS ENDS DEPLOYING ON NODES
+# ON CONTROLLER NODE
+                                                                                                                             
+	Deploy ctrl.py,crtl.conf file on controller node and enable autostart using supervisor similar to shaper nodes         
+		$cd /project                                                                                                   
+			-ctrl.py                                                                                               
+		$cd /etc/supervisor/conf.d/                                                                                    
+			-ctrl.conf                                                                                             
+		Supervisor restart                                                                                             
+                                                                                                                              
+	Database creation and grant of privileges:                                                                             
+		create user 'newuser'@'localhost' identified by 'password​ ';                                                   
+	grant all privileges ON * . * to 'user'@'ip_address'’                                                                  
+		Create tables on database using script tables.py                                                               
+			$ python tables.py                                                                                     
+# THIS ENDS DEPLOYING ON CONTROLLER
 
  
 
