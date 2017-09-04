@@ -50,5 +50,10 @@ Enable read and write privileges on text files using
 			$ python tables.py                                                                                     
 # THIS ENDS DEPLOYING ON CONTROLLER
 
+1. Ping the destination from source through the shaper to notice changes or settings .
+2. User will have the access to control node using a key provided.
+	key:admin
+3. Now from the control node, user can control and interact with the tool using curl commands.
+
  
 
