@@ -1,6 +1,6 @@
 # Linux-Traffic-Shaping
 
-#Features of Linux Traffic Shaping Tool 
+Features of Linux Traffic Shaping Tool 
                                                                                                                              
  	Autostarts once deployed on nodes                                                                                     
  	Survives reboot                                                                                                       
