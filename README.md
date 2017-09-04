@@ -1,6 +1,6 @@
 # Linux-Traffic-Shaping
 
-# Features of Linux Traffic Shaping Tool 
+#Features of Linux Traffic Shaping Tool 
                                                                                                                              
  	Autostarts once deployed on nodes                                                                                     
  	Survives reboot                                                                                                       
@@ -14,5 +14,5 @@
  	Updates the key of controller node                                                                                    
  	Updates the key of shaper node                                                                                        
  	Tracks the settings done and by which shaper ,from controller node                                                                                                                                                                                
-
+ 
 
